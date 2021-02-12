@@ -1,74 +1,59 @@
 nohup: ignoring input
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | NoneBot is initializing...
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Current [33m[1mEnv: dev[0m[33m[0m
-[32m02-11 11:36:47[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Loaded [33m[1mConfig[0m[33m[0m: {'driver': 'nonebot.drivers.fastapi', 'host': IPv4Address('0.0.0.0'), 'port': 8080, 'debug': True, 'api_root': {}, 'api_timeout': 30.0, 'access_token': None, 'secret': None, 'superusers': {''}, 'nickname': {'awesome', 'bot'}, 'command_start': {'#', ''}, 'command_sep': {'.'}, 'session_expire_timeout': datetime.timedelta(seconds=120), 'custom_config1': 'config in env file', 'test': True, 'environment': 'dev', 'custom_config2': '# 留空则从系统环境变量读取，如不存在则为空字符串'}
-[32m02-11 11:36:47[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to load adapter "[33mcqhttp[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33madd_remain[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mai[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mai_100000000[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mauto_agree[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mbase[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mbullshit[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mhelpme[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mhhsh[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mmenu[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mnonebot_plugin_apscheduler[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mmrwh[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mqq提醒[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mremain[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mrp[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33msetu[0m"
-(('1024979076', datetime.datetime(2021, 2, 10, 7, 30), datetime.datetime(2021, 2, 10, 8, 0), '上交作业', '学校', '无', datetime.datetime(2021, 2, 10, 9, 0)),)
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mtem[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mzhihu[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot_plugin_test[0m[36m[0m | Nonebot test frontend will be running at: [1m[4mhttp://localhost:8080/test/[0m[1m[0m
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mnonebot_plugin_test[0m"
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Running NoneBot...
-[32m02-11 11:36:47[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [32mLoaded adapters: cqhttp[0m
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Started server process [178093]
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Waiting for application startup.
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4mnonebot_plugin_apscheduler[0m[36m[0m | [33mScheduler Started[0m
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Application startup complete.
-[32m02-11 11:36:47[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
-[32m02-11 11:36:48[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | ('127.0.0.1', 35972) - "WebSocket /cqhttp/ws" [accepted]
-[32m02-11 11:36:48[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | WebSocket Connection from [33mCQHTTP Bot 3295018109[0m Accepted!
-[32m02-11 11:36:50[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP 3295018109[0m | [message.private.friend]: Message 383938998 from 1024979076 "你好"
-[32m02-11 11:36:50[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Checking for matchers in priority 1...
-[32m02-11 11:36:50[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Checking for matchers in priority 5...
-[32m02-11 11:36:50[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Event will be handled by <Matcher from ai, type=message, priority=5, temp=False>
-[32m02-11 11:36:50[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Running matcher <Matcher from ai, type=message, priority=5, temp=False>
-[32m02-11 11:36:50[0m [[34m[1mDEBUG[0m] [36m[4mai[0m[36m[0m | ai called
-[32m02-11 11:36:50[0m [[34m[1mDEBUG[0m] [36m[4mai[0m[36m[0m | 你好
-24.32e65ab3201b483bf429478718b46b37.2592000.1615606610.282335-23583154
-*&****
-你好
-{'result': {'version': '2.0', 'timestamp': '2021-02-11 11:36:50.957', 'service_id': 'S45411', 'log_id': 'f7159d0d9ada4316b9c1c753a7dab074', 'session_id': 'service-session-id-1613014610958-608a964c-6c1a-11eb-85bd-1d17608d374c', 'interaction_id': 'interaction-608a9408-6c1a-11eb-85bd-1d17608d374c', 'response_list': [{'status': 0, 'msg': 'ok', 'origin': '1076796', 'schema': {'intent_confidence': 1.0, 'slots': [], 'domain_confidence': 0.0, 'slu_tags': [], 'intent': 'BUILT_CHAT'}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'chat_satisfy', 'confidence': 1.0, 'custom_reply': '', 'say': '阿尼哈赛哟～一起聊聊咩？', 'type': 'chat'}], 'qu_res': {'qu_res_chosen': '', 'candidates': [], 'sentiment_analysis': {'pval': 0.0, 'label': ''}, 'lexical_analysis': [], 'raw_query': '', 'status': 0, 'timestamp': 0}}, {'status': 0, 'msg': 'ok', 'origin': '1076799', 'schema': {'intent_confidence': 100.0, 'slots': [], 'domain_confidence': 0.0, 'slu_tags': [], 'intent': 'BUILT_POEM'}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'built_poem_satisfy', 'confidence': 100.0, 'custom_reply': '', 'say': '油吧之中多俊俏,你好才子来相告,道观风光无限美,师兄给力把楼造', 'type': 'satisfy'}], 'qu_res': {'qu_res_chosen': '', 'candidates': [], 'sentiment_analysis': {'pval': 0.0, 'label': ''}, 'lexical_analysis': [], 'raw_query': '', 'status': 0, 'timestamp': 0}}, {'status': 0, 'msg': 'ok', 'origin': '1076800', 'schema': {'intent_confidence': 99.9999923706, 'slots': [{'word_type': '', 'fuzzy_matches': [], 'confidence': 100.0, 'name': 'faq_question', 'length': 0, 'original_word': '你好', 'sub_slots': [], 'session_offset': 0, 'begin': 0, 'normalized_word': '你好', 'merge_method': 'add'}, {'word_type': '', 'fuzzy_matches': [], 'confidence': 99.9999923706, 'name': 'qid', 'length': 0, 'original_word': '3962891', 'sub_slots': [], 'session_offset': 0, 'begin': 0, 'normalized_word': '阿尼哈赛哟～一起聊聊咩？|你好，需要我为你做什么|<USER-NAME>你好啊~|你好，有什么需要吗', 'merge_method': 'update'}], 'domain_confidence': 0.0, 'slu_tags': [], 'intent': 'BUILT_FAQ_HELLO'}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'built_faq_hello_satisfy', 'confidence': 100.0, 'custom_reply': '', 'say': '阿尼哈赛哟～一起聊聊咩？', 'type': 'satisfy'}], 'qu_res': {'qu_res_chosen': '{"confidence":99.99999237060547,"domain_confidence":0.0,"extra_info":{},"from_who":"faq_qu","intent":"BUILT_FAQ_HELLO","intent_confidence":99.99999237060547,"intent_need_clarify":false,"match_info":"你好","slots":[{"begin":0,"confidence":99.99999237060547,"father_idx":-1,"length":0,"name":"qid","need_clarify":false,"normalized_word":"阿尼哈赛哟～一起聊聊咩？|你好，需要我为你做什么|<USER-NAME>你好啊~|你好，有什么需要吗","original_word":"3962891","word_type":""}]}\n', 'candidates': [{'intent_confidence': 99.9999923706, 'match_info': '你好', 'slots': [{'word_type': '', 'father_idx': -1, 'fuzzy_matches': [], 'confidence': 99.9999923706, 'name': 'qid', 'length': 0, 'original_word': '3962891', 'begin': 0, 'need_clarify': False, 'normalized_word': '阿尼哈赛哟～一起聊聊咩？|你好，需要我为你做什么|<USER-NAME>你好啊~|你好，有什么需要吗'}], 'extra_info': {}, 'confidence': 99.9999923706, 'domain_confidence': 0.0, 'from_who': 'faq_qu', 'intent_need_clarify': False, 'intent': 'BUILT_FAQ_HELLO'}], 'sentiment_analysis': {'pval': 0.998, 'label': '1'}, 'lexical_analysis': [{'etypes': [], 'basic_word': ['你好'], 'weight': 1.0, 'term': '你好', 'type': '19'}], 'raw_query': '你好', 'status': 0, 'timestamp': 0}}, {'status': 0, 'msg': 'ok', 'origin': '1076729', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'slu_tags': [], 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '这个我暂时还找不到，我会再补充更多音乐资源的', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '', 'candidates': [], 'sentiment_analysis': {'pval': 0.0, 'label': ''}, 'lexical_analysis': [], 'raw_query': '', 'status': 0, 'timestamp': 0}}, {'status': 0, 'msg': 'ok', 'origin': '1076797', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'slu_tags': [], 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '这个我还不会，我会再学习更多疫情知识的', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '', 'candidates': [], 'sentiment_analysis': {'pval': 0.0, 'label': ''}, 'lexical_analysis': [], 'raw_query': '', 'status': 0, 'timestamp': 0}}, {'status': 0, 'msg': 'ok', 'origin': '1076798', 'schema': {'intent_confidence': 100.0, 'slots': [], 'domain_confidence': 0.0, 'slu_tags': [], 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '不好意思，我没有理解您的问题，可以换个方式再问下呢。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '', 'candidates': [], 'sentiment_analysis': {'pval': 0.0, 'label': ''}, 'lexical_analysis': [], 'raw_query': '', 'status': 0, 'timestamp': 0}}, {'status': 0, 'msg': 'ok', 'origin': '1076793', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'slu_tags': [], 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '', 'candidates': [], 'sentiment_analysis': {'pval': 0.998, 'label': '1'}, 'lexical_analysis': [{'etypes': [], 'basic_word': ['你好'], 'weight': 1.0, 'term': '你好', 'type': '19'}], 'raw_query': '你好', 'status': 0, 'timestamp': 0}}, {'status': 0, 'msg': 'ok', 'origin': '1076784', 'schema': {'intent_confidence': 100.0, 'slots': [], 'domain_confidence': 0.0, 'slu_tags': [], 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '', 'candidates': [], 'sentiment_analysis': {'pval': 0.998, 'label': '1'}, 'lexical_analysis': [{'etypes': [], 'basic_word': ['你好'], 'weight': 1.0, 'term': '你好', 'type': '19'}], 'raw_query': '你好', 'status': 0, 'timestamp': 0}}, {'status': 0, 'msg': 'ok', 'origin': '1076785', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'slu_tags': [], 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '', 'candidates': [], 'sentiment_analysis': {'pval': 0.998, 'label': '1'}, 'lexical_analysis': [{'etypes': [], 'basic_word': ['你好'], 'weight': 1.0, 'term': '你好', 'type': '19'}], 'raw_query': '你好', 'status': 0, 'timestamp': 0}}], 'dialog_state': {'contexts': {'SYS_PRESUMED_HIST': ['你好', '阿尼哈赛哟～一起聊聊咩？']}, 'skill_states': {}}}, 'error_code': 0}
-[32m02-11 11:36:50[0m [[34m[1mDEBUG[0m] [36m[4mai[0m[36m[0m | {'code': '0', 'session': 'test2', 'answer': '阿尼哈赛哟～一起聊聊咩？'}
-[32m02-11 11:36:50[0m [[34m[1mDEBUG[0m] [36m[4mai[0m[36m[0m | 阿尼哈赛哟～一起聊聊咩？
-[32m02-11 11:36:50[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_msg[0m
-[32m02-11 11:36:50[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Matcher <Matcher from ai, type=message, priority=5, temp=False> running complete
-[32m02-11 11:36:50[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Stop event propagation
-[32m02-11 11:36:54[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP 3295018109[0m | [message.private.friend]: Message 1642414368 from 1024979076 "菜单"
-[32m02-11 11:36:54[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Checking for matchers in priority 1...
-[32m02-11 11:36:54[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Event will be handled by <Matcher from menu, type=message, priority=1, temp=False>
-[32m02-11 11:36:54[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Running matcher <Matcher from menu, type=message, priority=1, temp=False>
-[32m02-11 11:36:54[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_msg[0m
-[32m02-11 11:36:54[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Matcher <Matcher from menu, type=message, priority=1, temp=False> running complete
-[32m02-11 11:36:54[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Stop event propagation
-[32m02-11 11:40:00[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_private_msg[0m
-<nonebot.adapters.cqhttp.bot.Bot object at 0x7fce553b21c0>
-[32m02-11 12:10:00[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_private_msg[0m
-<nonebot.adapters.cqhttp.bot.Bot object at 0x7fce553b21c0>
-[32m02-11 13:10:00[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_private_msg[0m
-<nonebot.adapters.cqhttp.bot.Bot object at 0x7fce553b21c0>
-[32m02-11 14:10:00[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_private_msg[0m
-<nonebot.adapters.cqhttp.bot.Bot object at 0x7fce553b21c0>
-[32m02-11 15:10:00[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_private_msg[0m
-<nonebot.adapters.cqhttp.bot.Bot object at 0x7fce553b21c0>
-[32m02-11 16:10:00[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_private_msg[0m
-<nonebot.adapters.cqhttp.bot.Bot object at 0x7fce553b21c0>
-[32m02-11 17:10:00[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_private_msg[0m
-<nonebot.adapters.cqhttp.bot.Bot object at 0x7fce553b21c0>
-[32m02-11 18:10:00[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_private_msg[0m
-<nonebot.adapters.cqhttp.bot.Bot object at 0x7fce553b21c0>
-[32m02-11 19:10:00[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_private_msg[0m
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | NoneBot is initializing...
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Current [33m[1mEnv: dev[0m[33m[0m
+[32m02-12 13:14:16[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Loaded [33m[1mConfig[0m[33m[0m: {'driver': 'nonebot.drivers.fastapi', 'host': IPv4Address('0.0.0.0'), 'port': 8080, 'debug': True, 'api_root': {}, 'api_timeout': 30.0, 'access_token': None, 'secret': None, 'superusers': {''}, 'nickname': {'bot', 'awesome'}, 'command_start': {'', '#'}, 'command_sep': {'.'}, 'session_expire_timeout': datetime.timedelta(seconds=120), 'test': True, 'custom_config1': 'config in env file', 'custom_config2': '# 留空则从系统环境变量读取，如不存在则为空字符串', 'environment': 'dev'}
+[32m02-12 13:14:16[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to load adapter "[33mcqhttp[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mai[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mai_100000000[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mauto_agree[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mbase[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mbullshit[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mcharacter[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mnonebot_plugin_apscheduler[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mdaily_hello[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mhelpme[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mhhsh[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mmenu[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mqq提醒[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mremain[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33msetu[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mzhihu[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot_plugin_test[0m[36m[0m | Nonebot test frontend will be running at: [1m[4mhttp://localhost:8080/test/[0m[1m[0m
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Succeeded to import "[33mnonebot_plugin_test[0m"
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Running NoneBot...
+[32m02-12 13:14:16[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [32mLoaded adapters: cqhttp[0m
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Started server process [185663]
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Waiting for application startup.
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4mnonebot_plugin_apscheduler[0m[36m[0m | [33mScheduler Started[0m
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Application startup complete.
+[32m02-12 13:14:16[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[32m02-12 13:14:17[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | ('127.0.0.1', 59284) - "WebSocket /cqhttp/ws" [accepted]
+[32m02-12 13:14:17[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | WebSocket Connection from [33mCQHTTP Bot 3295018109[0m Accepted!
+[32m02-12 13:15:15[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP 3295018109[0m | [message.private.friend]: Message 1835411342 from 1024979076 "提醒"
+[32m02-12 13:15:15[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Checking for matchers in priority 1...
+[32m02-12 13:15:15[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Event will be handled by <Matcher from remain, type=message, priority=1, temp=False>
+[32m02-12 13:15:15[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Running matcher <Matcher from remain, type=message, priority=1, temp=False>
+[32m02-12 13:15:15[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_msg[0m
+[32m02-12 13:15:15[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Matcher <Matcher from remain, type=message, priority=1, temp=False> running complete
+[32m02-12 13:15:15[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Stop event propagation
+[32m02-12 13:15:21[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP 3295018109[0m | [message.private.friend]: Message 442570520 from 1024979076 "菜单"
+[32m02-12 13:15:21[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Checking for matchers in priority 0...
+[32m02-12 13:15:21[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Event will be handled by <Matcher from remain, type=message, priority=0, temp=True>
+[32m02-12 13:15:21[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Running matcher <Matcher from remain, type=message, priority=0, temp=True>
+list index out of range
+[32m02-12 13:15:21[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_msg[0m
+[32m02-12 13:15:21[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Matcher <Matcher from remain, type=message, priority=0, temp=True> running complete
+[32m02-12 13:15:21[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Stop event propagation
+[32m02-12 13:15:25[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP 3295018109[0m | [message.private.friend]: Message -1965159799 from 1024979076 "菜单"
+[32m02-12 13:15:25[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Checking for matchers in priority 0...
+[32m02-12 13:15:25[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Checking for matchers in priority 1...
+[32m02-12 13:15:25[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Event will be handled by <Matcher from menu, type=message, priority=1, temp=False>
+[32m02-12 13:15:25[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Running matcher <Matcher from menu, type=message, priority=1, temp=False>
+[32m02-12 13:15:25[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | [35mCQHTTP[0m | Calling API [33msend_msg[0m
+[32m02-12 13:15:25[0m [[1mINFO[0m] [36m[4mnonebot[0m[36m[0m | Matcher <Matcher from menu, type=message, priority=1, temp=False> running complete
+[32m02-12 13:15:25[0m [[34m[1mDEBUG[0m] [36m[4mnonebot[0m[36m[0m | Stop event propagation
+[32m02-12 13:16:55[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Shutting down
+[32m02-12 13:16:55[0m [[31m[1mERROR[0m] [36m[4mnonebot[0m[36m[0m | WebSocket disconnected by peer.
+[32m02-12 13:16:56[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Waiting for application shutdown.
+[32m02-12 13:16:56[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Application shutdown complete.
+[32m02-12 13:16:56[0m [[1mINFO[0m] [36m[4muvicorn[0m[36m[0m | Finished server process [185663]

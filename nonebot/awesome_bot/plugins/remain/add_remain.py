@@ -9,13 +9,19 @@ from nonebot.log import logger
 import pymysql
 import time
 import datetime
+import json
+
+file = open('/home/UPC-nCoV-submit/cqhttp/nonebot/awesome_bot/plugins/remain/config.json', 'r', encoding='utf-8-sig')
+ans=json.load(file)
+mysql_user=ans['mysql_user']
+mysql_passwd=ans['mysql_passwd']
 async def insert(user,start,thing,location,note,end,before_start) :
     timeArray = time.strptime(start, "%Y-%m-%d %H:%M")
     timeStamp = int(time.mktime(timeArray))-before_start*60
     timeArray = time.localtime(timeStamp)
     remaind = time.strftime("%Y-%m-%d %H:%M", timeArray)
     print(start)
-    db = pymysql.connect(host="localhost",port=3306,user="root", password="upc1953root?", database="my")
+    db = pymysql.connect(host="localhost",port=3306,user=mysql_user, password=mysql_passwd, database="my")
     if end!='无' :
         sql = "INSERT INTO thing(user,remaind,start,thing,location, notes, end) VALUES ('"+user+"','"+remaind+"','"+start+"','"+thing+"','"+location+"','"+note+"','"+end+"')"
     else :

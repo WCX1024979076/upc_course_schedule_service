@@ -1,4 +1,4 @@
 {
-    "mysql_user":"root",
-    "mysql_passwd":"upc1953root?"
+    "mysql_user":"mysql_user",
+    "mysql_passwd":"mysql_passwd"
 }

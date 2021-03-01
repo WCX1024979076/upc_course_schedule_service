@@ -27,6 +27,7 @@ ai：价值一个亿的AI核心代码
 hhsh: 能不能好好说话？
 remain: 提醒
 movie: 盗版视频/视频解析
+joke: 笑话/讲个笑话
 开源地址：https://github.com/WCX1024979076/upc_course_schedule_service
 """
     at_ = f"[CQ:at,qq={event.get_user_id()}]"

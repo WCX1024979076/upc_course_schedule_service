@@ -11,10 +11,10 @@ import time
 import datetime
 import json
 import requests        #导入requests包
-add_remaind = on_command('add_remaind', aliases=set(['盗版视频', '视频解析']), rule=to_me())
+movie = on_command('movie', aliases=set(['盗版视频', '视频解析']), rule=to_me())
 
 
-@add_remaind.handle()
+@movie.handle()
 async def handle(bot: Bot, event: Event, state: T_State):
     args = str(event.get_message()).strip()
     if args:
@@ -26,11 +26,12 @@ def get_url(movie_url) :
     return 'https://www.eggvod.cn/jxjx.php?lrspm='+data+'&zhm_jx='+movie_url
 
 
-@add_remaind.got("url", prompt="请输入视频链接！例如：视频解析 www.baidu.com")
+@movie.got("url", prompt="请输入视频链接！例如：视频解析 www.baidu.com")
 async def handle_event(bot: Bot, event: Event, state: T_State):
     try :
-        url = state["url"].split(" ")[1]
-        await add_remaind.send(Message("解析成功："+get_url(url)))
+        url = state["url"].split(" ")
+        url=url[len(url)-1]
+        await movie.send(Message("解析成功："+get_url(url)))
     except Exception as e: 
         print(e)
-        await add_remaind.send(Message("解析失败"))
+        await movie.send(Message("解析失败"))

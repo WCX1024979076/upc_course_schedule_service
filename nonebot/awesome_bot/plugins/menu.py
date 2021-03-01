@@ -26,7 +26,8 @@ zhihu/知乎：知乎日报
 ai：价值一个亿的AI核心代码
 hhsh: 能不能好好说话？
 remain: 提醒
-开源地址：https://github.com/beiyuouo/plugins-for-nonebot2
+movie: 盗版视频/视频解析
+开源地址：https://github.com/WCX1024979076/upc_course_schedule_service
 """
     at_ = f"[CQ:at,qq={event.get_user_id()}]"
     await menu.send(Message(at_ + msg))

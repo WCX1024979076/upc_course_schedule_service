@@ -1,12 +1,12 @@
-#### upc_course_schedule_service
-#### 中国石油大学课表提醒qq机器人服务端代码（基于nonebot+cqhttp+mysql）
-#### 配置说明
+## upc_course_schedule_service
+## 中国石油大学课表提醒qq机器人服务端代码（基于nonebot+cqhttp+mysql）
+## 配置说明
 pip install -r requirements.txt
 
-#### 详细注解：
+## 详细注解：
 https://wcx1024979076.github.io/2021/02/12/%E5%AE%89%E5%8D%93%E8%AF%BE%E8%A1%A8%E5%AE%A2%E6%88%B7%E7%AB%AF+%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B3%A8%E8%A7%A3/
 
-#### 插件说明
+## 插件说明
 ### menu
 说明：插件汇总，菜单
 
@@ -32,7 +32,7 @@ https://wcx1024979076.github.io/2021/02/12/%E5%AE%89%E5%8D%93%E8%AF%BE%E8%A1%A8%
 ### ai_100000000
 说明：价值一个亿的AI核心代码，dddd
 
-命令：ai {}
+命令：`ai {}`
 
 ### bullshit
 说明：狗屁不通生成器
@@ -66,6 +66,11 @@ TIANQI_KEY = '' #Tianqi API Key
 说明：课表提醒+手动设置提醒，课表提醒需配合课表app食用，并打开plugins/remaind/service/port.py进行端口监听;手动设置提醒在qq聊天界面发送‘提醒’，按照指示添加即可。
 
 命令：`remaind`
+
+### moiv
+说明：视频解析
+
+命令：`视频解析/盗版视频`
 
 ### 参考于：
 https://github.com/beiyuouo/plugins-for-nonebot2

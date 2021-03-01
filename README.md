@@ -72,5 +72,10 @@ TIANQI_KEY = '' #Tianqi API Key
 
 命令：`视频解析/盗版视频`
 
+### joke
+说明：笑话
+
+命令：`笑话/讲个笑话`
+
 ### 参考于：
 https://github.com/beiyuouo/plugins-for-nonebot2

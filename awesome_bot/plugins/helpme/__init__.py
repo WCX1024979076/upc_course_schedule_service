@@ -29,10 +29,11 @@ async def handle(bot: Bot, event: Event, state: T_State):
     if args:
         state["qq"] = args
 
-
 @helpmemr.got("qq", prompt="骂谁啊")
 async def handle_event(bot: Bot, event: Event, state: T_State):
-    at_ = f"[CQ:at,qq={state['qq']}]"
+    at_qq=state['qq']
+    at_qq=at_qq.replace(" ", "")
+    at_ = f"[CQ:at,qq={at_qq}]"
     list = load_data()
     resp = choices(list, k=5)
     # logger.debug(list)

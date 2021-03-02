@@ -29,6 +29,7 @@ remain: 提醒
 movie: 盗版视频/视频解析
 joke: 笑话/讲个笑话
 net_ease_music：网易云神评/网易神评
+phrase：成语接龙
 开源地址：https://github.com/WCX1024979076/upc_course_schedule_service
 """
     at_ = f"[CQ:at,qq={event.get_user_id()}]"

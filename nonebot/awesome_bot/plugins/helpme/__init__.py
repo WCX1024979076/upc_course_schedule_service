@@ -22,17 +22,20 @@ def load_data() -> list:
 
 @helpmemr.handle()
 async def handle(bot: Bot, event: Event, state: T_State):
-    args = str(event.get_message()).strip()
+    try :
+        args = str(event.get_message().split(" ")[1]).strip()
+    except Exception as e: 
+        args = str(event.get_message()).strip()
     if args:
         state["qq"] = args
 
 
 @helpmemr.got("qq", prompt="骂谁啊")
 async def handle_event(bot: Bot, event: Event, state: T_State):
-    at_ = state["qq"]
+    at_ = f"[CQ:at,qq={state['qq']}]"
     list = load_data()
     resp = choices(list, k=5)
     # logger.debug(list)
     logger.debug(resp)
     for i in resp:
-        await helpmemr.send(Message(at_ + i))
+        await helpmemr.send(Message(at_ +" "+i))

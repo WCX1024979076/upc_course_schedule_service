@@ -17,9 +17,9 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from awesome_bot.config.config import *
 
 from nonebot import require
+
 scheduler = require("nonebot_plugin_apscheduler").scheduler
 
-TIANQI_KEY='fd6a3820d162acbeadd8fe6684543d6e'
 
 def getBot() -> Bot:
     print(nonebot.get_bots())
